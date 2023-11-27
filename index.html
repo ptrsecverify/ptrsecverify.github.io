@@ -177,7 +177,7 @@
                            <div class="error-message"></div>
                            <div class="sent-message">Your message has been sent. Thank you!</div>
                         </div>
-                        <div class="text-center"><button type="submit">Send Message</button></div>
+                        <div class="text-center"><button type="submit" data-bs-toggle="modal" data-bs-target="#submissionModal">Send Message</button></div>
                      </form>
                   </div>
                </div>
@@ -213,5 +213,20 @@
       <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
       <!-- Template Main JS File -->
       <script src="assets/js/main.js"></script>
+ 
+      <div class="modal fade" id="submissionModal" tabindex="-1" aria-labelledby="submissionModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+         <div class="modal-content">
+            <div class="modal-header">
+               <h1 class="modal-title fs-5" id="submissionModalLabel">Contact Us Submission</h1>
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+               Thank you for reaching out to us. We're very excited to work with you and will be in touch shortly.
+            </div>
+         </div>
+         </div>
+      </div>
+ 
    </body>
 </html>
