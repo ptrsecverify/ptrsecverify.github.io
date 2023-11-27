@@ -121,7 +121,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(40, 58, 90, 0.9);
+  background: rgb(30, 31, 41);
 }
 
 .logo {
@@ -1652,7 +1652,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: #37517e;
+  background: rgb(30, 31, 41);
 }
 
 #footer .footer-newsletter {
@@ -1710,7 +1710,7 @@ section {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: rgba(40, 58, 90, 0.9);
+  background: rgb(30, 31, 41);
 }
 
 #footer .footer-top .footer-contact {
